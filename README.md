@@ -7,3 +7,4 @@
 
 
 ![Github stats 2](https://github-readme-stats.vercel.app/api?username=ErntiLo&show_icons=true&theme=radical)
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FC_Sharp_%2528programming_language%2529&psig=AOvVaw2TZ3MIeHoLtCo8NLwXXV8Z&ust=1669196808694000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIiPpunAwfsCFQAAAAAdAAAAABAD
