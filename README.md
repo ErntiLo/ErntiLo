@@ -7,3 +7,4 @@
 
 
 ![Github stats 2](https://github-readme-stats.vercel.app/api?username=ErntiLo&show_icons=true&theme=radical)
+![c#](http://url/to/img.png)
