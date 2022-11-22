@@ -8,4 +8,4 @@
 
 ![Github stats 2](https://github-readme-stats.vercel.app/api?username=ErntiLo&show_icons=true&theme=radical)
 
-![c#](https://www.avenga.com/wp-content/uploads/2020/11/C-Sharp.png)
+
