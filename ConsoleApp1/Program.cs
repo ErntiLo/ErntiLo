@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,70 +9,69 @@ namespace ConsoleApp1
     internal class Program
     {
         static void Main(string[] args)
-        { //GİRİLEN SAYI KADAR İSİM YAZAN PROGRAM
-            Console.WriteLine("İsim Giriniz");
-            string isim = (Console.ReadLine());
-            Console.WriteLine("Sayı Giriniz");
-            int sayi = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= sayi; i++)
+        {
+            Random r = new Random();
+            int[] rastgelesayilar = new int[10];
+            for(int i=0; i<rastgelesayilar.Length; i++)
             {
-                Console.WriteLine(isim);
+                rastgelesayilar[i] = r.Next(1, 10);
+                Console.WriteLine(rastgelesayilar[i]);  
             }
-
-
-
-
-
-            //HESAPLAMA PROGRAMI
-            Console.WriteLine("1.Sayı Giriniz");
-            int sayi1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("2.Sayı Giriniz");
-            int sayi2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(" İşlem Seçiniz");
-           string islem=(Console.ReadLine());      
-            
-            if (islem == "+")
+          
+            int puan1 = 0;
+            int puan2 = 0;
+            for (int i = 0; i < rastgelesayilar.Length; i++)
             {
-                Console.WriteLine(sayi1 + sayi2);
+                Console.WriteLine("1.Oyuncu Tahminini Gir: ");
+                int tahmin1 = Convert.ToInt32(Console.ReadLine());
+
+                if (tahmin1 == rastgelesayilar[i])
+                {
+                    puan1 += 10;
+                }
+                else
+                {
+                    if ( rastgelesayilar[i]>tahmin1 )
+                    {
+                        puan1 += 10 - (rastgelesayilar[i] - tahmin1);
+                    }
+                    else
+                    {
+                        puan1 += 10 - (tahmin1 - rastgelesayilar[i]);
+                    }
+                    Console.Clear();
+                    //******************************************************2.Oyuncu**************************************************
+                    Console.WriteLine("2.Oyuncu Tahminini Gir: ");
+                    int tahmin2 = Convert.ToInt32(Console.ReadLine());
+
+                    if (tahmin2 == rastgelesayilar[i])
+                    {
+                        puan2 += 10;
+                    }
+                    else
+                    {
+                        if (rastgelesayilar[i]> tahmin2  )
+                        {
+                            puan2 += 10 - (rastgelesayilar[i] - tahmin2);
+                        }
+                        else
+                        {
+                            puan2 += 10 - (tahmin2 - rastgelesayilar[i]);
+                        }
+                        Console.Clear();
+                    }
+                    Console.Clear();
+                    
+
+
+
+                }
+
+
+
+
             }
-            else if (islem == "-")
-            {
-                Console.WriteLine(sayi1 - sayi2);
-            } 
-            else if (islem == "*")
-            {
-                Console.WriteLine(sayi1 * sayi2);
             }
-            else if (islem == "/")
-            {
-                Console.WriteLine(sayi1 / sayi2);
-            }
-
-            //İÇ AÇI HESAPLAMA
-            Console.WriteLine("1. İç Açıyı Giriniz");
-            int icaci1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("2. İç Açıyı Giriniz");
-            int icaci2 = Convert.ToInt32(Console.ReadLine());
-            
-            int islemm = (icaci1 + icaci2-(180)) ;
-            Console.WriteLine(islemm);  
-
-
-
-
-
-
-
-
-
-
-
-
-            Console.ReadKey();
-
-
-
-            
         }
     }
-}
+
