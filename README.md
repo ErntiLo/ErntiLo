@@ -1,4 +1,4 @@
-- 👋 Hi, My Name is Eren, I'm fifteen years old.I am an information technology student
+- 👋 Hi, My Name is Eren, I'm fifteen years old.I am an information technology and Network student.
 - Programming languages I'm interested in C# and Python
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=ErntiLo&labelColor=%23000000&countColor=%23ba68c8)](https://visitorbadge.io/status?path=ErntiLo)
