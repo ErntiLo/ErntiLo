@@ -7,6 +7,9 @@
 [![Blogger Badge](https://img.shields.io/badge/-Blogger-FF9800?style=flat-quare&labelColor=FF9800&logo=Blogger&logoColor=white&link=link)](https://erntilo.blogspot.com/)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-1BA0D7.svg?style=for-the-badge&logo=cisco&logoColor=white)
+
 
 
 
